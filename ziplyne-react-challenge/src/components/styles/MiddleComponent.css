@@ -1,0 +1,35 @@
+.middleComponent {
+  /* opacity: 0.9;
+  background: linear-gradient(
+    to right,
+    #7273c0,
+    #6f39e1 */
+  /* ); Chrome 10-25, Safari 5.1-6 */
+  /* padding: 2%; */
+  display: flex;
+  flex-flow: column;
+}
+
+path {
+  transition: fill 1.2s ease;
+}
+
+path:hover {
+  fill: white;
+}
+
+#containerForHeader {
+  opacity: 0.9;
+  background: linear-gradient(
+    to right,
+    #7369c0,
+    #6f39e1
+  ); /* Chrome 10-25, Safari 5.1-6 */
+}
+
+.mainHeader {
+  color: white;
+  font-size: 3rem;
+  font-family: "HK Grotesk";
+  padding: 3% 5% 3% 5%;
+}

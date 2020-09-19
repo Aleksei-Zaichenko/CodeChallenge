@@ -1,0 +1,8 @@
+.topComponent {
+  height: 100vh;
+  background: linear-gradient(to right, #7273c0, #6f39e1);
+  background-image: url("../../styleElements/ZL-Sample\ Desk.png");
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
